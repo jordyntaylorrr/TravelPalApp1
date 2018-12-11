@@ -89,39 +89,19 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="QkP-vg-WgF">
             <objects>
-                <viewController id="mxj-Sv-eFz" sceneMemberID="viewController">
+                <viewController id="mxj-Sv-eFz" customClass="MapViewController" customModule="TravelPalApp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gvg-sm-LXc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="this is where sites will be." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="one-gc-nbj">
-                                <rect key="frame" x="61" y="98" width="279" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="maps in here?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Raw-vt-mx8">
-                                <rect key="frame" x="100" y="194" width="167" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rm-56-YqO">
-                                <rect key="frame" x="17" y="616" width="46" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Home"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="1t1-BN-KyU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTf-PD-Z2o">
-                                <rect key="frame" x="110" y="615" width="91" height="33"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="SXY-co-tkA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTf-PD-Z2o" userLabel="Emergency">
+                                <rect key="frame" x="132" y="634" width="91" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Emergency ">
@@ -133,8 +113,17 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SXY-co-tkA" firstAttribute="bottom" secondItem="p2r-hh-bI8" secondAttribute="bottom" id="2FR-WM-j8z"/>
+                            <constraint firstItem="SXY-co-tkA" firstAttribute="leading" secondItem="p2r-hh-bI8" secondAttribute="leading" id="6cI-QE-xj7"/>
+                            <constraint firstItem="SXY-co-tkA" firstAttribute="top" secondItem="gvg-sm-LXc" secondAttribute="top" id="W4r-Va-Ugt"/>
+                            <constraint firstItem="SXY-co-tkA" firstAttribute="trailing" secondItem="p2r-hh-bI8" secondAttribute="trailing" id="bK0-fK-O14"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="p2r-hh-bI8"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="SXY-co-tkA" id="MBL-7a-ZeB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YSS-F7-LfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -335,7 +324,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Inc-ki-C3g"/>
-        <segue reference="uLZ-NY-smy"/>
+        <segue reference="u1K-S0-OZ3"/>
+        <segue reference="S0x-v3-Cnp"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -347,10 +347,10 @@
             </objects>
             <point key="canvasLocation" x="1605.5999999999999" y="929.68515742128943"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="dIF-Vf-Swn">
             <objects>
-                <viewController id="ud1-43-xwx" sceneMemberID="viewController">
+                <viewController id="ud1-43-xwx" customClass="SettingsViewController" customModule="TravelPalApp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EqI-Qs-vdF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

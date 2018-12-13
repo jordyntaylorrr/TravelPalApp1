@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		409AF12D21C057720039BC9C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409AF12C21C057720039BC9C /* MapViewController.swift */; };
 		409AF12F21C072700039BC9C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409AF12E21C072700039BC9C /* Location.swift */; };
+		4232A62721C2FA5C007FE232 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4232A62621C2FA5C007FE232 /* SettingsViewController.swift */; };
 		96EA56CE21BA339D00C149EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EA56CD21BA339D00C149EB /* AppDelegate.swift */; };
 		96EA56D021BA339D00C149EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EA56CF21BA339D00C149EB /* ViewController.swift */; };
 		96EA56D321BA339D00C149EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EA56D121BA339D00C149EB /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		409AF12C21C057720039BC9C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		409AF12E21C072700039BC9C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		4232A62621C2FA5C007FE232 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		96EA56CA21BA339D00C149EB /* TravelPalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelPalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EA56CD21BA339D00C149EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96EA56CF21BA339D00C149EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				96EA56D621BA339E00C149EB /* LaunchScreen.storyboard */,
 				96EA56D921BA339E00C149EB /* Info.plist */,
 				409AF12E21C072700039BC9C /* Location.swift */,
+				4232A62621C2FA5C007FE232 /* SettingsViewController.swift */,
 			);
 			path = TravelPalApp;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				96EA56D021BA339D00C149EB /* ViewController.swift in Sources */,
 				409AF12D21C057720039BC9C /* MapViewController.swift in Sources */,
 				409AF12F21C072700039BC9C /* Location.swift in Sources */,
+				4232A62721C2FA5C007FE232 /* SettingsViewController.swift in Sources */,
 				96EA56CE21BA339D00C149EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,35 +19,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to TravelPal!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKr-vm-tKO">
-                                <rect key="frame" x="53" y="61" width="268" height="44"/>
+                                <rect key="frame" x="53" y="281" width="268" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Make a selection below: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oh4-Iu-glx">
-                                <rect key="frame" x="91" y="102" width="193" height="27"/>
+                                <rect key="frame" x="82" y="342" width="193" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sites to See: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KD9-iY-ptQ">
-                                <rect key="frame" x="53" y="209" width="101" height="21"/>
+                                <rect key="frame" x="53" y="407" width="101" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Restaurants to Visit:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8k1-uu-dAO">
-                                <rect key="frame" x="53" y="266" width="153" height="21"/>
+                                <rect key="frame" x="27" y="457" width="153" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzi-IR-jpV">
-                                <rect key="frame" x="241" y="261" width="67" height="32"/>
+                                <rect key="frame" x="231" y="451" width="67" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Lets Eat!"/>
@@ -56,7 +56,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hag-ha-7Ke">
-                                <rect key="frame" x="11" y="626" width="97" height="30"/>
+                                <rect key="frame" x="7" y="639" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <state key="normal" title="Emergency Contacts">
@@ -67,7 +67,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOj-kF-84J">
-                                <rect key="frame" x="241" y="200" width="57" height="30"/>
+                                <rect key="frame" x="227" y="402" width="57" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Lets Go!"/>
                                 <connections>
@@ -75,7 +75,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z07-AH-Dyb">
-                                <rect key="frame" x="245" y="631" width="84" height="24"/>
+                                <rect key="frame" x="249" y="645" width="84" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Public Restrooms"/>
@@ -84,7 +84,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuQ-H8-U4k">
-                                <rect key="frame" x="116" y="614" width="109" height="53"/>
+                                <rect key="frame" x="112" y="631" width="109" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Settings">
@@ -94,10 +94,79 @@
                                     <segue destination="ud1-43-xwx" kind="modal" id="Zgs-gS-avY"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="90Q-k7-64C">
+                                <rect key="frame" x="0.0" y="20" width="375" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4N-qo-HGm">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="gve-MY-EVq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Select a City">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handleSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dLe-cJ-OAG"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHu-jD-Tne">
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="50"/>
+                                        <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="qCh-P8-VYd"/>
+                                        </constraints>
+                                        <state key="normal" title="Los Angeles">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cityTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="loD-i6-2Z5"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQv-sN-mR7">
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="50"/>
+                                        <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="ySU-Nc-uXD"/>
+                                        </constraints>
+                                        <state key="normal" title="San Francisco ">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cityTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hli-Jy-Jan"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="e4N-qo-HGm" secondAttribute="trailing" id="0gp-lP-p0P"/>
+                                    <constraint firstAttribute="trailing" secondItem="kQv-sN-mR7" secondAttribute="trailing" id="9gF-SO-hsW"/>
+                                    <constraint firstItem="e4N-qo-HGm" firstAttribute="leading" secondItem="90Q-k7-64C" secondAttribute="leading" id="BSz-zr-uFn"/>
+                                    <constraint firstAttribute="trailing" secondItem="qHu-jD-Tne" secondAttribute="trailing" id="Dyj-LN-ZL4"/>
+                                    <constraint firstItem="kQv-sN-mR7" firstAttribute="leading" secondItem="90Q-k7-64C" secondAttribute="leading" id="Izt-dB-vXR"/>
+                                    <constraint firstItem="qHu-jD-Tne" firstAttribute="leading" secondItem="90Q-k7-64C" secondAttribute="leading" id="KEL-4n-Oif"/>
+                                    <constraint firstAttribute="trailing" secondItem="qHu-jD-Tne" secondAttribute="trailing" id="ZDF-Lp-Yh0"/>
+                                    <constraint firstAttribute="trailing" secondItem="e4N-qo-HGm" secondAttribute="trailing" id="e4h-MM-gSb"/>
+                                    <constraint firstItem="e4N-qo-HGm" firstAttribute="leading" secondItem="90Q-k7-64C" secondAttribute="leading" id="fLL-Yv-S79"/>
+                                    <constraint firstItem="qHu-jD-Tne" firstAttribute="leading" secondItem="90Q-k7-64C" secondAttribute="leading" id="hDm-BH-pqE"/>
+                                    <constraint firstItem="kQv-sN-mR7" firstAttribute="leading" secondItem="90Q-k7-64C" secondAttribute="leading" id="j0Z-0c-OLk"/>
+                                    <constraint firstAttribute="trailing" secondItem="kQv-sN-mR7" secondAttribute="trailing" id="j1i-hs-hvV"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="90Q-k7-64C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ijb-1e-eh3"/>
+                            <constraint firstItem="90Q-k7-64C" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Q8b-8N-dj5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="90Q-k7-64C" secondAttribute="trailing" id="i9c-UU-AOj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outletCollection property="cityButtons" destination="qHu-jD-Tne" collectionClass="NSMutableArray" id="ua4-kx-ovz"/>
+                        <outletCollection property="cityButtons" destination="kQv-sN-mR7" collectionClass="NSMutableArray" id="uTo-U2-keh"/>
+                        <outletCollection property="cityButtons" destination="kQv-sN-mR7" collectionClass="NSMutableArray" id="lDi-lU-vhb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -525,8 +594,8 @@
         <image name="images" width="266" height="190"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ft0-Fs-8cG"/>
-        <segue reference="u7X-fV-bMs"/>
+        <segue reference="jS2-Sd-O7Z"/>
+        <segue reference="Inc-ki-C3g"/>
         <segue reference="pkX-EP-hKq"/>
     </inferredMetricsTieBreakers>
 </document>

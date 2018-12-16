@@ -18,6 +18,8 @@
 		96EA56D821BA339E00C149EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EA56D621BA339E00C149EB /* LaunchScreen.storyboard */; };
 		96EA56E321BA339E00C149EB /* TravelPalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EA56E221BA339E00C149EB /* TravelPalAppTests.swift */; };
 		96EA56EE21BA339E00C149EB /* TravelPalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EA56ED21BA339E00C149EB /* TravelPalAppUITests.swift */; };
+		C2FB513D21C6C7930046DB08 /* FooodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FB513C21C6C7930046DB08 /* FooodTableViewCell.swift */; };
+		C2FB514121C6D4670046DB08 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FB514021C6D4670046DB08 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +47,7 @@
 		96EA56CA21BA339D00C149EB /* TravelPalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelPalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EA56CD21BA339D00C149EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96EA56CF21BA339D00C149EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		96EA56D221BA339D00C149EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96EA56D221BA339D00C149EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../Main.storyboard; sourceTree = "<group>"; };
 		96EA56D421BA339E00C149EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96EA56D721BA339E00C149EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96EA56D921BA339E00C149EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +57,8 @@
 		96EA56E921BA339E00C149EB /* TravelPalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelPalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EA56ED21BA339E00C149EB /* TravelPalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPalAppUITests.swift; sourceTree = "<group>"; };
 		96EA56EF21BA339E00C149EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FB513C21C6C7930046DB08 /* FooodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooodTableViewCell.swift; sourceTree = "<group>"; };
+		C2FB514021C6D4670046DB08 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				409AF12E21C072700039BC9C /* Location.swift */,
 				4232A62621C2FA5C007FE232 /* SettingsViewController.swift */,
 				4232A62C21C31687007FE232 /* GlobalSettings.swift */,
+				C2FB513C21C6C7930046DB08 /* FooodTableViewCell.swift */,
+				C2FB514021C6D4670046DB08 /* ListViewController.swift */,
 			);
 			path = TravelPalApp;
 			sourceTree = "<group>";
@@ -274,6 +280,8 @@
 				4232A62721C2FA5C007FE232 /* SettingsViewController.swift in Sources */,
 				96EA56CE21BA339D00C149EB /* AppDelegate.swift in Sources */,
 				4232A62D21C31687007FE232 /* GlobalSettings.swift in Sources */,
+				C2FB514121C6D4670046DB08 /* ListViewController.swift in Sources */,
+				C2FB513D21C6C7930046DB08 /* FooodTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

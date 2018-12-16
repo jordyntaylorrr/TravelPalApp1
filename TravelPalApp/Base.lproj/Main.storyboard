@@ -704,6 +704,9 @@
                                 <state key="normal" title="English">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ud1-43-xwx" kind="show" id="2FB-T6-uNe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kge-bz-A9o">
                                 <rect key="frame" x="21" y="30" width="22" height="19"/>
@@ -739,7 +742,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="FiX-2M-1As"/>
-        <segue reference="5cg-GI-RDN"/>
+        <segue reference="2FB-T6-uNe"/>
         <segue reference="noe-tt-xXs"/>
         <segue reference="73Q-5U-kGC"/>
     </inferredMetricsTieBreakers>

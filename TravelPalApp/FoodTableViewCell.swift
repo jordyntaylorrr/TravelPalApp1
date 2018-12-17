@@ -18,7 +18,11 @@ class FoodTableViewCell: UITableViewCell {
     
     @IBOutlet weak var foodPriceLabel: UILabel!
     
+    
     @IBOutlet weak var foodDescriptionLabel: UILabel!
+    
+    
+    
     
     
     override func awakeFromNib() {

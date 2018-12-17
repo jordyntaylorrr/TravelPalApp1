@@ -4,7 +4,9 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -44,7 +46,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Lets Eat!"/>
                                 <connections>
-                                    <segue destination="6oh-tS-eix" kind="modal" id="RkL-YM-obw"/>
+                                    <segue destination="6oh-tS-eix" kind="modal" id="i8w-tt-egG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOj-kF-84J">
@@ -190,11 +192,6 @@
                                     <segue destination="C3K-jr-Dc3" kind="show" id="AMn-No-uaG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWp-bw-mGX">
-                                <rect key="frame" x="40" y="632" width="41" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Home" image="iconfinder_Streamline-18_185038"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVR-ho-CHr">
                                 <rect key="frame" x="181" y="634" width="33" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -203,6 +200,14 @@
                                 </state>
                                 <connections>
                                     <segue destination="CVL-CN-4nj" kind="show" id="29p-gq-hMw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWp-bw-mGX">
+                                <rect key="frame" x="40" y="601" width="41" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home" image="iconfinder_Streamline-18_185038"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="gJw-Jr-O2M"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -231,24 +236,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUJ-1v-Fkc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUJ-1v-Fkc">
                                 <rect key="frame" x="320" y="633" width="39" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="b4i-MF-zgp"/>
+                                </constraints>
                                 <state key="normal" title="Public Restroom" image="iconfinder_Toilet-Paper_1531915"/>
                                 <connections>
                                     <segue destination="C3K-jr-Dc3" kind="show" id="Ri7-NN-0q7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZI-zW-d2R">
-                                <rect key="frame" x="40" y="632" width="41" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZI-zW-d2R">
+                                <rect key="frame" x="40" y="641" width="41" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="Xaj-a3-qQI"/>
+                                    <constraint firstAttribute="width" constant="41" id="c7r-nJ-Ktb"/>
+                                </constraints>
                                 <state key="normal" title="Home" image="iconfinder_Streamline-18_185038"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="YQV-n6-mrZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIG-BC-uEF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIG-BC-uEF">
                                 <rect key="frame" x="181" y="634" width="33" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="33" id="lCg-ev-i3v"/>
+                                </constraints>
                                 <state key="normal" title="Emergency" image="iconfinder_phone_police_call_emergency_telephone_help_crime_safety_911_assistance_service_3465602">
                                     <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -256,25 +269,36 @@
                                     <segue destination="CVL-CN-4nj" kind="show" id="ZQo-9X-nZV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDn-Uc-CYB">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDn-Uc-CYB">
                                 <rect key="frame" x="16" y="-236" width="22" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="zJt-L9-sBf"/>
+                                </constraints>
                                 <state key="normal" title="Button" image="iconfinder_Streamline-75_185095"/>
                                 <connections>
                                     <segue destination="ud1-43-xwx" kind="show" id="hMU-QQ-uZy"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SFQ-ZL-ysh">
-                                <rect key="frame" x="0.0" y="28" width="375" height="596"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SFQ-ZL-ysh">
+                                <rect key="frame" x="0.0" y="20" width="375" height="604"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="BDn-Uc-CYB" firstAttribute="leading" secondItem="HFm-Rt-AHv" secondAttribute="leadingMargin" id="3Zr-CI-zY4"/>
+                            <constraint firstItem="DZI-zW-d2R" firstAttribute="leading" secondItem="EvI-XM-9xu" secondAttribute="leading" constant="40" id="5QI-3d-UOB"/>
                             <constraint firstItem="EvI-XM-9xu" firstAttribute="trailing" secondItem="SFQ-ZL-ysh" secondAttribute="trailing" id="Doj-YX-ofd"/>
-                            <constraint firstItem="DZI-zW-d2R" firstAttribute="top" secondItem="SFQ-ZL-ysh" secondAttribute="bottom" id="eoq-H4-uIZ"/>
+                            <constraint firstItem="OUJ-1v-Fkc" firstAttribute="bottom" secondItem="TIG-BC-uEF" secondAttribute="bottom" id="HKI-vJ-Gp8"/>
+                            <constraint firstItem="DZI-zW-d2R" firstAttribute="bottom" secondItem="EvI-XM-9xu" secondAttribute="bottom" id="JyK-UE-OlX"/>
+                            <constraint firstItem="TIG-BC-uEF" firstAttribute="top" secondItem="SFQ-ZL-ysh" secondAttribute="bottom" constant="10" id="Sdu-m9-J1z"/>
+                            <constraint firstItem="OUJ-1v-Fkc" firstAttribute="trailing" secondItem="HFm-Rt-AHv" secondAttribute="trailingMargin" id="cz9-BS-ehH"/>
+                            <constraint firstItem="TIG-BC-uEF" firstAttribute="leading" secondItem="HFm-Rt-AHv" secondAttribute="leading" constant="181" id="dXB-5L-MlA"/>
+                            <constraint firstItem="TIG-BC-uEF" firstAttribute="bottom" secondItem="DZI-zW-d2R" secondAttribute="bottom" id="e7z-QF-5Nu"/>
+                            <constraint firstItem="SFQ-ZL-ysh" firstAttribute="top" secondItem="BDn-Uc-CYB" secondAttribute="bottom" id="gNF-IN-NyD"/>
+                            <constraint firstItem="DZI-zW-d2R" firstAttribute="top" secondItem="SFQ-ZL-ysh" secondAttribute="bottom" constant="17" id="lJ2-cT-4nt"/>
+                            <constraint firstItem="OUJ-1v-Fkc" firstAttribute="centerY" secondItem="TIG-BC-uEF" secondAttribute="centerY" id="pCf-fQ-zLf"/>
                             <constraint firstItem="SFQ-ZL-ysh" firstAttribute="leading" secondItem="EvI-XM-9xu" secondAttribute="leading" id="syO-uU-K1X"/>
-                            <constraint firstItem="DZI-zW-d2R" firstAttribute="top" secondItem="SFQ-ZL-ysh" secondAttribute="bottom" id="uFh-65-zRb"/>
-                            <constraint firstItem="SFQ-ZL-ysh" firstAttribute="top" secondItem="BDn-Uc-CYB" secondAttribute="bottom" id="uJC-I9-QQO"/>
                             <constraint firstItem="SFQ-ZL-ysh" firstAttribute="top" secondItem="EvI-XM-9xu" secondAttribute="top" id="vZW-2i-vhO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EvI-XM-9xu"/>

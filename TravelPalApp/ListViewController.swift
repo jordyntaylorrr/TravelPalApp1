@@ -25,7 +25,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         return 120
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let myCell = FoodTableView.dequeueReusableCell(withIdentifier: "foodCell") as! FooodTableViewCell
+        let myCell = FoodTableView.dequeueReusableCell(withIdentifier: "foodCell") as! FoodTableViewCell
         myCell.foodImageView.image = UIImage(named: dishImage[indexPath.row])
         myCell.foodNameLabel.text = dishName[indexPath.row]
         myCell.foodPriceLabel.text = "$\(dishPrice[indexPath.row])"

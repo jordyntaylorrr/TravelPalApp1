@@ -203,7 +203,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWp-bw-mGX">
-                                <rect key="frame" x="40" y="601" width="41" height="55"/>
+                                <rect key="frame" x="40" y="633" width="41" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Home" image="iconfinder_Streamline-18_185038"/>
                                 <connections>
@@ -269,24 +269,22 @@
                                     <segue destination="CVL-CN-4nj" kind="show" id="ZQo-9X-nZV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDn-Uc-CYB">
-                                <rect key="frame" x="16" y="-236" width="22" height="256"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="22" id="zJt-L9-sBf"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="iconfinder_Streamline-75_185095"/>
-                                <connections>
-                                    <segue destination="ud1-43-xwx" kind="show" id="hMU-QQ-uZy"/>
-                                </connections>
-                            </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SFQ-ZL-ysh">
                                 <rect key="frame" x="0.0" y="20" width="375" height="604"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <button key="tableFooterView" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="middleTruncation" id="BDn-Uc-CYB">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="13"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                    <state key="normal" title="Button" image="iconfinder_Streamline-75_185095"/>
+                                    <connections>
+                                        <segue destination="ud1-43-xwx" kind="show" id="hMU-QQ-uZy"/>
+                                    </connections>
+                                </button>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="BDn-Uc-CYB" firstAttribute="leading" secondItem="HFm-Rt-AHv" secondAttribute="leadingMargin" id="3Zr-CI-zY4"/>
                             <constraint firstItem="DZI-zW-d2R" firstAttribute="leading" secondItem="EvI-XM-9xu" secondAttribute="leading" constant="40" id="5QI-3d-UOB"/>
                             <constraint firstItem="EvI-XM-9xu" firstAttribute="trailing" secondItem="SFQ-ZL-ysh" secondAttribute="trailing" id="Doj-YX-ofd"/>
                             <constraint firstItem="OUJ-1v-Fkc" firstAttribute="bottom" secondItem="TIG-BC-uEF" secondAttribute="bottom" id="HKI-vJ-Gp8"/>
@@ -295,7 +293,6 @@
                             <constraint firstItem="OUJ-1v-Fkc" firstAttribute="trailing" secondItem="HFm-Rt-AHv" secondAttribute="trailingMargin" id="cz9-BS-ehH"/>
                             <constraint firstItem="TIG-BC-uEF" firstAttribute="leading" secondItem="HFm-Rt-AHv" secondAttribute="leading" constant="181" id="dXB-5L-MlA"/>
                             <constraint firstItem="TIG-BC-uEF" firstAttribute="bottom" secondItem="DZI-zW-d2R" secondAttribute="bottom" id="e7z-QF-5Nu"/>
-                            <constraint firstItem="SFQ-ZL-ysh" firstAttribute="top" secondItem="BDn-Uc-CYB" secondAttribute="bottom" id="gNF-IN-NyD"/>
                             <constraint firstItem="DZI-zW-d2R" firstAttribute="top" secondItem="SFQ-ZL-ysh" secondAttribute="bottom" constant="17" id="lJ2-cT-4nt"/>
                             <constraint firstItem="OUJ-1v-Fkc" firstAttribute="centerY" secondItem="TIG-BC-uEF" secondAttribute="centerY" id="pCf-fQ-zLf"/>
                             <constraint firstItem="SFQ-ZL-ysh" firstAttribute="leading" secondItem="EvI-XM-9xu" secondAttribute="leading" id="syO-uU-K1X"/>

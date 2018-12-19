@@ -41,8 +41,10 @@ class ViewController: UIViewController {
         switch city {
         case .sanFrancisco:
             print("San Francisco")
+            GlobalSettings.city = "San Francisco"
         default:
             print("Los Angeles")
+            GlobalSettings.city = "Los Angeles"
         }
     }
 }

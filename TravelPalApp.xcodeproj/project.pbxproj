@@ -20,6 +20,7 @@
 		C2FB514121C6D4670046DB08 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FB514021C6D4670046DB08 /* ListViewController.swift */; };
 		C3CAA55F21C72F070012C6B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EA56D621BA339E00C149EB /* LaunchScreen.storyboard */; };
 		C3CAA56221C72FD40012C6B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CAA56021C72FD40012C6B0 /* Main.storyboard */; };
+		F04EE80121CA0DA1003D864B /* EmergencyDialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04EE80021CA0DA1003D864B /* EmergencyDialController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		C2FB513C21C6C7930046DB08 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		C2FB514021C6D4670046DB08 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C3CAA56121C72FD40012C6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F04EE80021CA0DA1003D864B /* EmergencyDialController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyDialController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				409AF12C21C057720039BC9C /* MapViewController.swift */,
 				96EA56CD21BA339D00C149EB /* AppDelegate.swift */,
+				F04EE80021CA0DA1003D864B /* EmergencyDialController.swift */,
 				96EA56CF21BA339D00C149EB /* ViewController.swift */,
 				96EA56D421BA339E00C149EB /* Assets.xcassets */,
 				96EA56D621BA339E00C149EB /* LaunchScreen.storyboard */,
@@ -279,6 +282,7 @@
 				409AF12F21C072700039BC9C /* Location.swift in Sources */,
 				4232A62721C2FA5C007FE232 /* SettingsViewController.swift in Sources */,
 				96EA56CE21BA339D00C149EB /* AppDelegate.swift in Sources */,
+				F04EE80121CA0DA1003D864B /* EmergencyDialController.swift in Sources */,
 				4232A62D21C31687007FE232 /* GlobalSettings.swift in Sources */,
 				C2FB514121C6D4670046DB08 /* ListViewController.swift in Sources */,
 				C2FB513D21C6C7930046DB08 /* FoodTableViewCell.swift in Sources */,

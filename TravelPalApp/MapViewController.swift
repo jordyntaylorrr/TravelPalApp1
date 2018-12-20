@@ -17,7 +17,10 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     var currentUserLatitude = 37.773972
     var currentUserLongitude = -122.431297
     
+    let geocoder = CLGeocoder()
+    
     var locationAnnotations = [Location]()
+    let cordinate = CLLocationCoordinate2D(latitude: 37.773972, longitude: -122.431297)
     
     @IBOutlet weak var mapView: MKMapView!
     
@@ -33,6 +36,23 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
 
         locationAnnotations.append(Location(title:"Golden gate Bridge", subtitle:"One of the most iconic bridges in the world, known for its red color", coordinate: CLLocationCoordinate2D(latitude: 37.773972, longitude: -122.431297), image: "goldengate.jpg"))
         mapView.addAnnotations(locationAnnotations)
+        
+        //Navigate to location
+        var request:MKDirectionsRequest = MKDirectionsRequest()
+        request.source = MKMapItem(placemark: MKPlacemark(coordinate: cordinate, addressDictionary: nil))
+        request.destination = MKMapItem(placemark: MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: 37.783333, longitude: -122.416667), addressDictionary: nil))
+        request.requestsAlternateRoutes = true
+        request.transportType = .walking
+        
+        let directions = MKDirections(request: request)
+        directions.calculate { [unowned self] response, error in
+            guard let unwrappedResponse = response else { return }
+            
+            for route in unwrappedResponse.routes {
+                self.mapView.add(route.polyline)
+                self.mapView.setVisibleMapRect(route.polyline.boundingMapRect, animated: true)
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -72,7 +92,12 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         return nil
     }
     
-    
+    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+        let renderer = MKPolylineRenderer(polyline: overlay as! MKPolyline)
+        renderer.strokeColor = UIColor.blue
+        renderer.lineWidth = 4
+        return renderer
+    }
     
     func determineMyCurrentLocation() {
         print("Determining location")
@@ -107,5 +132,16 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         currentUserLongitude = -122.431297
         
     }
-    
+    /*
+    let address = "8787 Snouffer School Rd, Montgomery Village, MD 20879"
+    geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+    if((error) != nil){
+    print("Error", error ?? "")
+    }
+    if let placemark = placemarks?.first {
+    let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+    print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+    }
+    })
+    */
 }

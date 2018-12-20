@@ -47,5 +47,8 @@ class ViewController: UIViewController {
             GlobalSettings.city = "Los Angeles"
         }
     }
+    func loadDestinations(){
+        
+    }
 }
 

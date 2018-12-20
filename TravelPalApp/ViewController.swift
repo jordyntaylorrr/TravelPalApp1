@@ -48,7 +48,20 @@ class ViewController: UIViewController {
         }
     }
     func loadDestinations(){
+        let path = Bundle.main.path(forResource: "Data", ofType: "json")
+        let url = URL(fileURLWithPath: path!)
         
+        do{
+            let data = try Data(contentsOf: url)
+            GlobalSettings.Destinations = try JSONDecoder().decode([Destination].self, from: data)
+            
+            for eachDestination in GlobalSettings.Destinations{
+                print(eachDestination.NAME)
+            }
+            
+        }catch{
+            print("Couldn't load data")
+        }
     }
 }
 

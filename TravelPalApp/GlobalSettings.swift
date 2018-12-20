@@ -8,14 +8,12 @@
 
 import Foundation
 
-struct Destination{
-    
-}
 
 public struct GlobalSettings{
     static var city:String = "San Francisco"
     static var language:String = "english"
     static var route:String = "SF"
+    static var Destinations = [Destination]()
     
 }
 

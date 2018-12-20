@@ -16,6 +16,7 @@
 		96EA56D521BA339E00C149EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EA56D421BA339E00C149EB /* Assets.xcassets */; };
 		96EA56E321BA339E00C149EB /* TravelPalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EA56E221BA339E00C149EB /* TravelPalAppTests.swift */; };
 		96EA56EE21BA339E00C149EB /* TravelPalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EA56ED21BA339E00C149EB /* TravelPalAppUITests.swift */; };
+		B00EE05821CB945200876AB1 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EE05721CB945200876AB1 /* Destination.swift */; };
 		C2FB513D21C6C7930046DB08 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FB513C21C6C7930046DB08 /* FoodTableViewCell.swift */; };
 		C2FB514121C6D4670046DB08 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FB514021C6D4670046DB08 /* ListViewController.swift */; };
 		C3CAA55F21C72F070012C6B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EA56D621BA339E00C149EB /* LaunchScreen.storyboard */; };
@@ -58,6 +59,7 @@
 		96EA56E921BA339E00C149EB /* TravelPalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelPalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EA56ED21BA339E00C149EB /* TravelPalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPalAppUITests.swift; sourceTree = "<group>"; };
 		96EA56EF21BA339E00C149EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00EE05721CB945200876AB1 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		C2FB513C21C6C7930046DB08 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		C2FB514021C6D4670046DB08 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C3CAA56121C72FD40012C6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				C2FB513C21C6C7930046DB08 /* FoodTableViewCell.swift */,
 				C2FB514021C6D4670046DB08 /* ListViewController.swift */,
 				C3DE6A0921CB50B800126A9A /* Data.json */,
+				B00EE05721CB945200876AB1 /* Destination.swift */,
 			);
 			path = TravelPalApp;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				4232A62D21C31687007FE232 /* GlobalSettings.swift in Sources */,
 				C2FB514121C6D4670046DB08 /* ListViewController.swift in Sources */,
 				C2FB513D21C6C7930046DB08 /* FoodTableViewCell.swift in Sources */,
+				B00EE05821CB945200876AB1 /* Destination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
